@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(#0338F4, #E025CE);
+    height: 100vh;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 10px;
+
+}
+
+.left-side {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.right-side {
+    background-color: rgb(39, 191, 99);
+}
+
+.left-side,
+.right-side {
+    flex: 1 1 0%;
+    padding: 10px 15px;
+
+}
+
+.left-side img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+}
+
+.nama {
+    flex-grow: 1;
+}
+
+.contact{
+display: flex;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 5px;
+padding: 10px 20px;
+/* justify-content: center; */
+align-items: center;
+}
+
+.contact .text {
+flex-grow: 1;
+text-align: center;
+
+
+}
