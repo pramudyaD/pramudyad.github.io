@@ -22,7 +22,7 @@ body {
 }
 
 .right-side {
-    background-color: rgb(39, 191, 99);
+    background-color: rgba(39, 191, 99,0.5);
 }
 
 .left-side,
@@ -61,4 +61,17 @@ flex-grow: 1;
 text-align: center;
 
 
+}
+
+.biodata {
+
+    background-color: rgba(12, 139, 223, 0.2);
+    border-radius: 9px;
+    padding: 12px 15px;
+    margin-top: 20px;
+}
+
+.ket{
+    font-size:smaller;
+    text-align: center;
 }
